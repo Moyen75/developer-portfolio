@@ -3,7 +3,10 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 .orange{
     color: orange;
@@ -11,6 +14,16 @@ h1{
 .fexible-container{
     display: flex;
 
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 40px gray;
+    background-image: url(images/moyen.png);
+    background-repeat: no-repeat;
 }
 .hire-me{
     background-image: url(images/top-banner.png);
@@ -42,4 +55,18 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+#stack-item{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,blue);
+    border-image-slice: 1;
+}
+#dev-item{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,tomato);
+    border-image-slice: 1; 
+}
+.main-footer p{
+    text-align: center;
 }
