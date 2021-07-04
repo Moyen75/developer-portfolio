@@ -1,0 +1,78 @@
+body{
+    font-family: 'Yomogi', cursive;
+    margin: 0;
+}
+.half-height{
+    display: flex;
+    
+
+}
+.a-height{
+    float: right;
+    margin: 20px 0 0 600px;
+}
+.a-height a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+.span{
+    color: tomato;
+}
+.top-banner{
+   
+    background: linear-gradient(#fa807280,#ffff0082,#2196f38c),url(images/help-other.png) no-repeat ;
+    background-position: right;
+    min-height: 400px;
+
+
+}
+.half-height h1{
+    padding-left: 25px;
+    color: deepskyblue;
+}
+.half-height{
+    background-color: gray;
+}
+.half-width{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.half-width p{
+    text-align: justify;
+    color: black;
+}
+.button{
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.our-act{
+    padding-left: 8px;
+}
+.Activities-area{
+    display: flex;
+    padding-left: 15px;
+    margin-left: 25px;
+}
+.Activities-area h1{
+    color: deepskyblue;
+}
+.Activities-area p{
+    text-align: justify;
+    padding: 5px;
+    width: 80%;
+}
+.activities-item{
+    box-shadow: 10px 10px 50px gray;
+    margin: 5px;
+    padding: 5px;
+    padding: 35px;
+    border-radius: 10+px;
+
+}
