@@ -79,3 +79,88 @@ body{
     border-radius: 10+px;
 
 }
+.about-area{
+
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.about-area h1{
+      text-align: center;
+      font-size: 50px;
+}
+.about-section{
+    background: linear-gradient(#00bfff70,#ffff00cc), url(images/download.png) no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    margin-top: 25px;
+}.about-area p{
+    text-align: justify;
+    
+    font-size: 30px;
+}
+.team-members{
+    display: flex;
+    margin-left: 4px;
+    padding: 5px;
+}
+.member{
+    width: 23%;
+    margin:0 2%;
+    padding: 5px;
+    box-shadow: 10px 10px 60px white;
+    border-radius: 7px;
+    min-height: 240px;
+}
+.member p{
+    text-align: justify;
+}
+.member a{
+    display: inline;
+    background-image: linear-gradient(rgb(22, 147, 230),rgb(55, 226, 127));
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin:12px 0 0 80px;
+}
+.area-header {
+    text-align: center;
+    padding-top: 8px;
+}
+.team-area{
+    background:linear-gradient(tomato,salmon);
+    min-height: 350px;
+}
+.member h4{
+    color: rgb(230, 237, 240);
+}
+.source-area{
+    display: flex;
+    padding: 10px;
+}
+.source{
+     box-shadow: 10px 10px 60px gray;
+     width: 30%;
+     margin: 20px;
+     padding: 10px;
+     border-radius: 5px;
+}
+.donate-system{
+    display: flex;
+    margin-left:380px;
+}
+.donate-system a img{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    padding: 10px;
+}
+.donate-system a img:hover{
+    width: 140px;
+    height: 140px;
+    opacity: 0.6;
+}
+footer{
+    text-align: center;
+}
